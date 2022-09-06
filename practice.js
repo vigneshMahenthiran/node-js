@@ -8,7 +8,7 @@ else{
 
 let num2 = 20;
 let num3 = 25;
-let num4 = 35;
+let num4 = 36;
 if(num1 > num2 && num1 > num3){
     console.log("this is gratest number ",num1);
 }
@@ -18,5 +18,7 @@ else if(num2 > num3){
 else{
     console.log("this is gratest number ",num3);
 }
+
+
 
 
