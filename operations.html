@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>operations</title>
 </head>
 <center>
 <body>
@@ -12,6 +12,7 @@
         let num1 = parseInt(prompt("enter number1 : ")); 
         let num2 = parseInt(prompt("enter number2 : ")); 
         function graterValue(num1, num2){
+            document.write("checking for grater number <br/>");
             if(num1 > num2){
                 document.write(num1 + " is grater <br/><br/>");
             }
@@ -20,6 +21,7 @@
             }
         }
         function evenOrOdd(num1 , num2){
+            document.write("checking for odd or even number <br/>");
             if(num1 %2 === 0){
                 document.write(num1+ " is even <br/>");
             }
@@ -34,6 +36,7 @@
             }
         }
         function eligibleToVote(num1 , num2){
+            document.write("checking for age eligibility <br/>");
             if(num1 >18){
                 document.write(num1+" is eligible to vote <br/>");
             }
@@ -48,15 +51,26 @@
             }
         }
         function calculations(num1, num2){
+            document.write("working on mathematical operations ");
             document.write("<br/> addition result of "+num1+ " and "+ num2+ " is "+ (num1 + num2));
             document.write("<br/> subraction result of "+num1+ " and "+ num2+ " is "+ (num1 - num2));
             document.write("<br/> multiplication result of "+num1+ " and "+ num2+ " is "+ (num1 * num2));
             document.write("<br/> division result of "+num1+ " and "+ num2+ " is "+ (num1 / num2));
         }
+        function operatorPrecedence(num1, num2){
+            document.write("<br/><br/> working on operator precedence <br/>");
+            let num3 = 10;
+            document.write("num1 = "+num1+ "<br/> num2 = "+num2+"<br/> num3 = "+num3);
+            document.write("<br/> value for expression num1+num2*num2 is : "+(num1+num2*num2));
+            document.write("<br/> value for expression num1+num2*(num2*num3) is : "+(num1+num2*(num2*num3)));
+            document.write("<br/> value for expression num1-num2+num3*num1 is : "+(num1-num2+num3*num1));
+        }
+    
         graterValue(num1, num2);
         evenOrOdd(num1, num2);
         eligibleToVote(num1, num2);
         calculations(num1, num2);
+        operatorPrecedence(num1, num2);
     </script>
     
 </body>
