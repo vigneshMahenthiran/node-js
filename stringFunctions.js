@@ -30,3 +30,13 @@ console.log("finding index of u", string1.indexOf("u"));
 
 //finding last index of letter
 console.log("last index of i ",string1.lastIndexOf("i"));
+
+console.log("String.includes()");//includes() method returns true if a string contains a specified value, otherwise false
+let text3 = "Hello world, welcome to the universe.";
+console.log(text3.includes("world"));//world is there it returns true otherwise false
+
+console.log("String.startsWith()");//startsWith() method returns true if a string begins with a specified value, otherwise false
+console.log(text3.startsWith("Hello"));
+
+console.log("String.endsWith()");//endsWith() method returns true if a string ends with a specified value, otherwise false
+console.log(text3.endsWith("false"));
