@@ -27,5 +27,6 @@ console.log("splitting the string ",string1.split(""));
 //finding index of a letter in string
 console.log("finding index of u", string1.indexOf("u"));
 
+
 //finding last index of letter
 console.log("last index of i ",string1.lastIndexOf("i"));
