@@ -99,3 +99,13 @@ console.log(Math.log2(4));//returns 2
 console.log("Math.log10(x)");//Math.log10(x) returns the base 10 logarithm of x
 console.log(Math.log10(2));
 console.log(Math.log10(4));
+
+
+// values inside a block can have temproary values
+let g = 6;
+console.log(g); // here value is 6
+{
+    let g = 10 ; // inside this block value of g is 10
+    console.log(g);
+}
+console.log(g); // outside the block values will be 6
