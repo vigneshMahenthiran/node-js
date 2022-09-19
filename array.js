@@ -10,3 +10,4 @@ console.log(arr);
 let arr1 = [[25,30,35,40], 2, 4, [77,88,99,11], 3, 7];
 console.log(arr1);
 console.log(arr1[3][2]);
+arr.pop();
