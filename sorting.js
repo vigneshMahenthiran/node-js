@@ -7,7 +7,7 @@ const books = [
     { name: "The Hunger Games", author: "Suzanne Collins" },
   
   ];
-
+// sorting json elements in array based on their last name
   let sorted = books.sort((a,b)=>{
     let str1 = a.author.split(' ');
     let str2 = b.author.split(' ');
