@@ -1,5 +1,5 @@
 let str = "My name is Vinz";
-let str2 = str.split(' ');
+str = str.split(' ');
 let str3 = "";
 for(let i = 0; i < str2.length; i++){
     str2[i] = str2[i].split('').reverse().join('');
